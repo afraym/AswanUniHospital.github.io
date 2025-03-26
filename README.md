@@ -1,5 +1,5 @@
 
-![Logo](https://aswunihosp.afraym.com/assets/img/Aswan-University-Hospitals-AR-blue.png)
+![Logo](https://aswunihosp.afraym.com/assets/img/Aswan-University-Hospitals-AR-blue-200.png)
 
 
 # Aswan University Hospitals Website 🏥

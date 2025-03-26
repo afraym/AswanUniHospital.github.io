@@ -2046,3 +2046,7 @@ img.header-logo.show {
   visibility: visible;
   opacity: 1;
 }
+.copyright.lazy {
+  background-image: none;
+  background-color: #F1F1FA;
+}
