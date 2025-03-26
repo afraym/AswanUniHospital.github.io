@@ -4,7 +4,7 @@
 
 # Aswan University Hospitals Website 🏥
 
-Aswan University Hospitals Website Frontend : واجهة موقع مستشفى اسوان الجامعي
+Aswan University Hospitals Website Frontend | واجهة موقع مستشفى اسوان الجامعي
 ## Demo
 
 https://aswunihosp.afraym.com/
