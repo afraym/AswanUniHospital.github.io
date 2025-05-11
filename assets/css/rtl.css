@@ -72,6 +72,16 @@
   .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
     line-height: 2;
   }
+
+  .about .content ul i
+  {
+    margin-right: 0.5rem;
+  }
+
+  .features .icon-box i
+  {
+    margin-left: 25px;
+  }
   /* Bootstrap RTL */
   
   /* .hero {
