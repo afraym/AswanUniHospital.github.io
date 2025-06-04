@@ -106,9 +106,12 @@
       <div id="hero-carousel" class="carousel slide carousel-fade rtl" data-bs-ride="carousel" data-bs-interval="5000" dir="ltr">
 
         <div class="carousel-item active" >
-          <img src="assets/img/hero-carousel/auhfront.webp" alt="" loading="eager">
+          <picture>
+            <source srcset="assets/img/hero-carousel/mobile-auhfront.webp" media="(max-width: 768px)">
+            <img src="assets/img/hero-carousel/auhfront.webp" alt="Carousel Image" loading="eager">
+          </picture>
           <div class="container">
-            <h2> مركز طبي رائد في جنوب مصر</h2>
+            <h2>مركز طبي رائد في جنوب مصر</h2>
             <p>مستشفى أسوان الجامعي هي المستشفى الوحيدة في محافظة أسوان التي تستقبل المرضى من جميع أنحاء المحافظة والمحافظات المجاورة.
             بعد تحولها إلى مستشفى جامعي، زاد عدد الأقسام من 8 إلى 24 قسماً في مختلف التخصصات.
             أصبح العلاج متاحاً في أسوان، مما قلل نسبة التحويلات إلى مستشفيات أخرى بنسبة تجاوزت 95%.
@@ -709,118 +712,6 @@
 
     </section><!-- /Tabs Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>شهادات زوار المستشفى</h2>
-        <p>بعض من شهادات زوار المستشفى من المسئولين وكبار الزوار</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 1,
-                  "spaceBetween": 40
-                },
-                "1200": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 20
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-            <p>
-              <i class=" bi bi-quote quote-icon-left"></i>
-                <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="" loading="lazy">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="" loading="lazy">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="" loading="lazy">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="" loading="lazy">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="" loading="lazy">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
     <!-- Doctors Section -->
     <section id="doctors" class="doctors section light-background">
 
@@ -1200,10 +1091,7 @@
   <div class="faq-item">
     <h3>هل يقبل المستشفى التأمين الصحي؟</h3>
     <div class="faq-content">
-      <p>نعم، تقبل مستشفيات أسوان الجامعية التأمين الصحي للمواطنين المصريين المسجلين في نظام التأمين الصحي الحكومي. يمكن للمرضى المؤمن عليهم الاستفادة من خدمات العلاج بتكلفة رمزية أو مجانًا في بعض الحالات، خاصة للعمليات والخدمات الطبية المغطاة. يُنصح بإحضار بطاقة التأمين الصحي أو الرقم القومي عند زيارة المستشفى لتسهيل الإجراءات.</p>
-    </div>
-    <i class="faq-toggle bi bi-chevron-left"></i>
-  </div><!-- End Faq item-->
+      <p>نعم، تقبل مستشفيات أسوان الجامعية التأمين
 
             </div>
 
@@ -1238,7 +1126,7 @@
                 <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
                   <h3>العنوان</h3>
-                  <p>ش كسر الحجر, السيل شرق, اسوان قريب من ادارة المرور - اسوان</p>
+                  <p>ش كسر الحجر, السيل شرق امام ادارة المرور - اسوان</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -1253,7 +1141,7 @@
               <div class="col-md-6">
                 <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
                   <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
+                  <h3>البريد الالكتروني</h3>
                   <p>info@auh.gov.eg</p>
                 </div>
               </div><!-- End Info Item -->
@@ -1341,7 +1229,7 @@
           <li><a href="#" aria-label="تعرف على خدمات تطوير المواقع">الاستعلامات </a></li>
           <li><a href="#" aria-label="تعرف على خدمات إدارة المنتجات">العيادات الخارجية</a></li>
           <li><a href="#" aria-label="تعرف على خدمات التسويق">الأقسام الداخلية</a></li>
-          <li><a href="#" aria-label="تعرف على خدمات التصميم الجرافيكي">التصميم الجرافيكي</a></li>
+          <li><a href="#" aria-label="تعرف على خدمات التصميم ">الطوارئ</a></li>
         </ul>
       </div>
 
