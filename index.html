@@ -1420,7 +1420,7 @@ https://aswunihosp.afraym.com/ -->
     // Periodically send recorded events to the server
     setInterval(() => {
         if (events.length > 0) {
-            fetch('https://tomato.test/api/session/record', {
+            fetch('https://tomato.afraym.com/api/session/record', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
